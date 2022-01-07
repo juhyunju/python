@@ -1,6 +1,14 @@
-try:
-    while True:
-        print("Hello~")
+# try:
+#     while True:
+#         print("Hello~")
 
-except KeyboardInterrupt:
-    pass
+# except KeyboardInterrupt:
+#     pass
+
+sum = 0
+i = 1
+while i<11:
+    sum = sum + i
+    print("i=",i)
+    i = i+1
+print("sum = ",sum)
