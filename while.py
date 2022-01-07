@@ -1,2 +1,6 @@
-while True:
-    print("Hello~")
+try:
+    while True:
+        print("Hello~")
+
+except KeyboardInterrupt:
+    pass
